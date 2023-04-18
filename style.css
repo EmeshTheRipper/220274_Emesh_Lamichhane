@@ -1,31 +1,63 @@
-.third{
-    color: brown;
-}
 p{
     color: blue;
 }
 #second{
-    color: red;
+    color: green;
 }
-input[type="text"] {
-    width: 150px;
-    display: block;
-    margin-bottom: 10px;
+
+.third{
+    color: brown;
+}
+
+::selection {
+    color: red;
+    background-color: black;
+}
+
+::marker {
+    color: green;
     background-color: yellow;
-    }
-    
-    input[type="button"] {
+}
+
+input[type="text"]{
     width: 120px;
-    margin-left: 35px;
+    margin-left: 5px;
+    display: inline-flex;
+}
+input[type="submit"]{
+    width: 50px;
+    margin-left: 10px;
+    display: inline-flex;
+}
+
+.main-div h1 {
+    background-color: orange;
+    color: white;
+}
+
+h1 + h2 {
+    background-color: orange;
+    color: white;
+}
+
+.chand{
+    color: red !important;
+}
+.box {
+    margin: 10px;
+}
+.box{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.box{
+    border: 2px solid black;
+}
+.block-element {
     display: block;
-    }
-    
-    style
-    #p-red {
-        background-color: green;
-        color: bisque;
-    }
-    div .red {
-        color: brown;
-    }
-    
+    padding: 10px;
+    margin: 10px;
+    border: solid black;
+}
